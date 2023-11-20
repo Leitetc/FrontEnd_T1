@@ -136,6 +136,11 @@ li {
     margin-bottom: 1rem;
 }
 
+.results-section a{
+    text-decoration: none;
+    color: black;
+}
+
 /* Estilos para o rodapé fixo */
 .footer {
     background-color:black;

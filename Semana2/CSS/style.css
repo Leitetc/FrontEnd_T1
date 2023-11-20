@@ -27,11 +27,12 @@ p {
 .logo-header {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-direction: column;
     background-color: #131314;
     padding: 1.800rem;
 }
+
 .logo-menu {
     display: flex;
     align-items: center;
@@ -41,27 +42,29 @@ p {
     padding: 0.600rem;
 }
 
-.menu-section a{
-    color:black;
+.menu-section a {
+    color: black;
     text-decoration: none;
     font-weight: bold;
     margin-right: 96px;
 }
 
-.logo-menu a{
-    color:white;
+.logo-menu a {
+    color: white;
     text-decoration: none;
     font-weight: bold;
     margin-right: 96px;
 }
-.sectionNoticias a{
-color: #121212;
-text-decoration: none;
+
+.sectionNoticias a {
+    color: #121212;
+    text-decoration: none;
 }
 
-body{
-    background-color:#020249;
+body {
+    background-color: #020249;
 }
+
 /* Estilos para a imagem no cabeçalho */
 header img {
     width: 102%;
@@ -83,7 +86,12 @@ main {
 }
 
 /* Estilos compartilhados para várias seções */
-.menu-section, .sectionNoticias, .sectionDestaque, .services-section, .results-section, .footer {
+.menu-section,
+.sectionNoticias,
+.sectionDestaque,
+.services-section,
+.results-section,
+.footer {
     border: 3px solid rgb(0, 0, 0);
     background-color: white;
     padding: .5rem;
@@ -110,8 +118,8 @@ main {
 
 /* Estilos para itens de lista */
 li {
-   list-style: none;
-   margin-bottom: .2rem;
+    list-style: none;
+    margin-bottom: .2rem;
 }
 
 /* Estilos específicos para a seção de destaque */
@@ -136,14 +144,19 @@ li {
     margin-bottom: 1rem;
 }
 
+.results-section a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Estilos para o rodapé fixo */
 .footer {
-    background-color:black;
+    background-color: black;
     color: #fff;
     padding: 20px 0;
 }
 
-.footer-section h2{
+.footer-section h2 {
     color: white;
 }
 
@@ -186,10 +199,10 @@ li {
     margin: 0;
 }
 
-
 /* Media queries para tornar o layout responsivo */
 @media screen and (max-width: 1184px) {
-    .grid-container, .services-results-container {
+    .grid-container,
+    .services-results-container {
         width: 100%;
         padding: 20px;
     }
@@ -203,14 +216,15 @@ li {
     }
 }
 
-@media screen and (max-width: 728px){
+@media screen and (max-width: 728px) {
     * {
         font-size: 1rem;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .grid-container, .services-results-container {
+    .grid-container,
+    .services-results-container {
         grid-template-columns: 1fr;
         padding: 15px;
     }

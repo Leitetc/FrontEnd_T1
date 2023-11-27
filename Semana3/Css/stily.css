@@ -128,11 +128,11 @@ navegar ul li a{
   }
   
   .roteiros-viagens{
-    background-color: rgb(166, 99, 228);
+    background-color: rgb(48, 164, 164);
     margin: 10px;
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
-    color:rgb(62, 12, 109);
+    color: rgb(21, 74, 74);
   }
   
   ul {
@@ -197,4 +197,7 @@ navegar ul li a{
     margin-top: auto;
   }
   
+  .propaganda{
+    margin: 55px;
+  }
   

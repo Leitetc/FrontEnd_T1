@@ -127,7 +127,7 @@ navegar ul li a{
     margin: 30px;
   }
   
-  .roteiros-viagens{
+  .viagens{
     background-color: rgb(48, 164, 164);
     margin: 10px;
     border-radius: 10px;
@@ -151,23 +151,23 @@ navegar ul li a{
     font-size: 35px;
   }
   
-  .roteiro-preco{
+  .preco{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
   }
   
-  .roteiro-obs{
+  .obs{
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
   }
   
-  .roteiro-parcelamento{
+  .parcelamento{
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
   }
   
-  .roteiro-comprar {
+  .comprar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,11 +184,11 @@ navegar ul li a{
     transition: background-color 0.3s ease;
   }
     
-  .roteiro-comprar:hover {
+  .comprar:hover {
     background-color: rgb(0, 128, 0);
   }
   
-  .roteiro-incluso{
+  .incluso{
     font-family: 'Bebas Neue', sans-serif;
     font-size: 25px;
   }

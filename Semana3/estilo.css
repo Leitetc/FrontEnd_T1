@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color:teal
+  background-color:rgb(139, 151, 162);
  }
 .layout {
   width: 100%;
@@ -22,12 +22,11 @@ body {
 
 .container-destinos{
   display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
   justify-content: center;
-  
-  
-}
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+ }
 
 img{
 
@@ -38,11 +37,11 @@ img{
 }
 
 .roteiros-viagens{
-  background-color:midnightblue;
+  background-color: rgb(21, 74, 74);
   margin: 10px;
   border-radius: 10px;
   font-family: 'Roboto', sans-serif;
-  color:aqua
+  color:white;
 }
 
 ul {

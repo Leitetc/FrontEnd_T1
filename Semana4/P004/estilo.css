@@ -40,6 +40,20 @@ body {
   margin-right: 4vh;
 }
 
+.company{
+  color: white;
+  font-size: 18px;
+  padding: 10px 22px;
+  border-radius: 4px;
+  font-weight: 500;   
+  text-decoration: none;
+  transition: ease 0.40s;
+
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  font-size: 60px;
+}
+
 .navbar a{
   color: white;
   font-size: 18px;
@@ -51,7 +65,7 @@ body {
 
   font-family: 'Bebas Neue', sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .navbar a:hover,.navbar a.active{
@@ -149,6 +163,15 @@ h3{
   margin-top: auto;
 }
 
-
+.end {
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  width: 100%; 
+  font-size: 20px;
+}
 
 

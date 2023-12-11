@@ -149,6 +149,10 @@ h3{
   margin: 10px auto;
   transition: background-color 0.3s ease;
 }
+.roteiro-comprar a{
+color: white;
+text-decoration: none;
+}
   
 .roteiro-comprar:hover {
   background-color: rgb(0, 128, 0);

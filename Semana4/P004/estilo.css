@@ -107,7 +107,7 @@ ul {
 
  .container-destinos li::before {
   content: "✔";
-  color: rgb(62, 12, 109); 
+  color:springgreen; 
   padding-right: 8px;
 }
 

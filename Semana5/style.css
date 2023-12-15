@@ -34,7 +34,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #d0e3f6;
+    background-color: #2886e4;
     grid-area: header;
     margin-bottom: 10px;
   }
@@ -56,7 +56,7 @@
     text-align: center;
     font-size: 14px;
     font-family: 'Lato';
-    color: #307ecc;
+    color: #072f57;
     margin: 2px;
     border: 1px solid #d3d3d3; /* 2 pixels de largura, sólida e cor preta */
     padding: 3px;
